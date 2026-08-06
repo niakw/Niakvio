@@ -1,9 +1,34 @@
 {
-  "status": "in-progress",
+  "status": "ready-for-runtime-validation",
   "branch": "agent/final-provider-repair-v1",
-  "scope": ["purstream", "coflix", "wookafr", "frenchstream", "streamzo", "movix", "flemmix", "hindmoviez"],
+  "manifest": "final-v1/manifest.json",
+  "scope": [
+    "purstream",
+    "coflix",
+    "wookafr",
+    "frenchstream",
+    "streamzo",
+    "movix",
+    "flemmix",
+    "hindmoviez"
+  ],
   "evidence": {
-    "purstream": "api.purstream.store selected with HTTP 200 for Breaking Bad S1E1 and Interstellar",
-    "desktop_runtime": "object-call normalization and QuickJS timers validated"
-  }
+    "purstream": "api.purstream.store selected with HTTP 200 and one stream returned for Breaking Bad S1E1 and Interstellar in the latest Nuvio log",
+    "desktop_runtime": "object-call normalization, missing S1E1 normalization and QuickJS timer shims validated",
+    "resolver": "HTML entity decoding, recursive iframe resolution, direct-media enforcement and decoy rejection pass local simulations",
+    "hindmoviez": "exact episode filtering and maximum 24 series results pass local simulations"
+  },
+  "policy": {
+    "streamzo": "enabled for tv only until movie support is evidenced",
+    "flemmix": "disabled after repeated zero-result tests; no active provider may publish unproven results",
+    "unresolved_embeds": "discarded instead of exposed as playable streams",
+    "decoys": "troll/sample/test media discarded"
+  },
+  "local_tests": [
+    "node --check loader and eight wrappers",
+    "object invocation becomes tv S1E1",
+    "lecteurvideo HTML entity URL resolves to direct HLS",
+    "Purstream probes .store first and caches the successful suffix",
+    "HindMoviez retains only the requested episode"
+  ]
 }
