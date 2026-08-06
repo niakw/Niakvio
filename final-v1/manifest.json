@@ -1,0 +1,111 @@
+{
+  "name": "Niakvio Final Provider Repair V1",
+  "version": "1.0.0",
+  "description": "Final isolated validation bundle: immutable providers, strict direct-media validation, Desktop QuickJS compatibility and safe quarantine.",
+  "scrapers": [
+    {
+      "id": "PURSTREAM-FINAL-V1",
+      "name": "Purstream VF — Final V1",
+      "description": "Immutable final repair wrapper. Unresolved embeds and decoy streams are not published.",
+      "version": "1.0.0",
+      "author": "Niakw",
+      "supportedTypes": ["movie", "tv", "anime"],
+      "filename": "https://raw.githubusercontent.com/niakw/Niakvio/5fae88f70e1078ffd8c2e619389854a3146388cf/providers/final-v1/purstream-final-v1.js",
+      "enabled": true,
+      "formats": ["mp4", "m3u8"],
+      "contentLanguage": ["fr"],
+      "supportsExternalPlayer": false
+    },
+    {
+      "id": "COFLIX-FINAL-V1",
+      "name": "Coflix VF — Final V1",
+      "description": "Immutable final repair wrapper. Unresolved embeds and decoy streams are not published.",
+      "version": "1.0.0",
+      "author": "Niakw",
+      "supportedTypes": ["movie", "tv"],
+      "filename": "https://raw.githubusercontent.com/niakw/Niakvio/5fae88f70e1078ffd8c2e619389854a3146388cf/providers/final-v1/coflix-final-v1.js",
+      "enabled": true,
+      "formats": ["mp4", "m3u8"],
+      "contentLanguage": ["fr"],
+      "supportsExternalPlayer": false
+    },
+    {
+      "id": "WOOKAFR-FINAL-V1",
+      "name": "WookaFR VF — Final V1",
+      "description": "Immutable final repair wrapper. Unresolved embeds and decoy streams are not published.",
+      "version": "1.0.0",
+      "author": "Niakw",
+      "supportedTypes": ["movie", "tv"],
+      "filename": "https://raw.githubusercontent.com/niakw/Niakvio/5fae88f70e1078ffd8c2e619389854a3146388cf/providers/final-v1/wookafr-final-v1.js",
+      "enabled": true,
+      "formats": ["mp4", "m3u8"],
+      "contentLanguage": ["fr"],
+      "supportsExternalPlayer": false
+    },
+    {
+      "id": "FRENCHSTREAM-FINAL-V1",
+      "name": "Frenchstream VF — Final V1",
+      "description": "Immutable final repair wrapper. Unresolved embeds and decoy streams are not published.",
+      "version": "1.0.0",
+      "author": "Niakw",
+      "supportedTypes": ["movie", "tv"],
+      "filename": "https://raw.githubusercontent.com/niakw/Niakvio/5fae88f70e1078ffd8c2e619389854a3146388cf/providers/final-v1/frenchstream-final-v1.js",
+      "enabled": true,
+      "formats": ["mp4", "m3u8"],
+      "contentLanguage": ["fr"],
+      "supportsExternalPlayer": false
+    },
+    {
+      "id": "MOVIX-FINAL-V1",
+      "name": "Movix VF — Final V1",
+      "description": "Immutable final repair wrapper. Unresolved embeds and decoy streams are not published.",
+      "version": "1.0.0",
+      "author": "Niakw",
+      "supportedTypes": ["movie", "tv"],
+      "filename": "https://raw.githubusercontent.com/niakw/Niakvio/5fae88f70e1078ffd8c2e619389854a3146388cf/providers/final-v1/movix-final-v1.js",
+      "enabled": true,
+      "formats": ["mp4", "m3u8"],
+      "contentLanguage": ["fr"],
+      "supportsExternalPlayer": false
+    },
+    {
+      "id": "STREAMZO-FINAL-V1",
+      "name": "StreamZo séries — Final V1",
+      "description": "Immutable final repair wrapper. Unresolved embeds and decoy streams are not published.",
+      "version": "1.0.0",
+      "author": "Niakw",
+      "supportedTypes": ["tv"],
+      "filename": "https://raw.githubusercontent.com/niakw/Niakvio/5fae88f70e1078ffd8c2e619389854a3146388cf/providers/final-v1/streamzo-final-v1.js",
+      "enabled": true,
+      "formats": ["mp4", "m3u8"],
+      "contentLanguage": ["fr"],
+      "supportsExternalPlayer": false
+    },
+    {
+      "id": "HINDMOVIEZ-FINAL-V1",
+      "name": "HindMoviez borné — Final V1",
+      "description": "Immutable final repair wrapper. Unresolved embeds and decoy streams are not published.",
+      "version": "1.0.0",
+      "author": "Niakw",
+      "supportedTypes": ["movie", "tv"],
+      "filename": "https://raw.githubusercontent.com/niakw/Niakvio/5fae88f70e1078ffd8c2e619389854a3146388cf/providers/final-v1/hindmoviez-final-v1.js",
+      "enabled": true,
+      "formats": ["mp4", "mkv", "m3u8"],
+      "contentLanguage": ["en", "hi"],
+      "supportsExternalPlayer": false
+    },
+    {
+      "id": "FLEMMIX-FINAL-V1",
+      "name": "Flemmix — quarantaine",
+      "description": "Quarantined after repeated zero-result tests; kept disabled until an upstream response is proven.",
+      "version": "1.0.0",
+      "author": "Niakw",
+      "supportedTypes": ["movie", "tv"],
+      "filename": "https://raw.githubusercontent.com/niakw/Niakvio/5fae88f70e1078ffd8c2e619389854a3146388cf/providers/final-v1/flemmix-final-v1.js",
+      "enabled": false,
+      "formats": ["mp4", "m3u8"],
+      "contentLanguage": ["fr"],
+      "supportsExternalPlayer": false
+    }
+  ]
+}
