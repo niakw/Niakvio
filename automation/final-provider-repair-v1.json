@@ -1,0 +1,9 @@
+{
+  "status": "in-progress",
+  "branch": "agent/final-provider-repair-v1",
+  "scope": ["purstream", "coflix", "wookafr", "frenchstream", "streamzo", "movix", "flemmix", "hindmoviez"],
+  "evidence": {
+    "purstream": "api.purstream.store selected with HTTP 200 for Breaking Bad S1E1 and Interstellar",
+    "desktop_runtime": "object-call normalization and QuickJS timers validated"
+  }
+}
