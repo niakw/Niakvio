@@ -1,0 +1,177 @@
+{
+  "name": "Nuvio Desktop Manual V2",
+  "version": "2.0.0",
+  "scrapers": [
+    {
+      "id": "COFLIX-DESKTOP-V2",
+      "name": "Coflix Desktop V2",
+      "description": "Isolated Nuvio Desktop QuickJS test wrapper for Coflix.",
+      "version": "2.0.0",
+      "author": "Niakw test",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/desktop-v2/coflix-desktop-v2.js",
+      "enabled": true,
+      "formats": [
+        "mp4",
+        "m3u8"
+      ],
+      "contentLanguage": [
+        "fr"
+      ],
+      "supportsExternalPlayer": false
+    },
+    {
+      "id": "FRENCHSTREAM-DESKTOP-V2",
+      "name": "Frenchstream Desktop V2",
+      "description": "Isolated Nuvio Desktop QuickJS test wrapper for Frenchstream.",
+      "version": "2.0.0",
+      "author": "Niakw test",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/desktop-v2/frenchstream-desktop-v2.js",
+      "enabled": true,
+      "formats": [
+        "mp4",
+        "m3u8"
+      ],
+      "contentLanguage": [
+        "fr"
+      ],
+      "supportsExternalPlayer": false
+    },
+    {
+      "id": "MOVIX-DESKTOP-V2",
+      "name": "Movix Desktop V2",
+      "description": "Isolated Nuvio Desktop QuickJS test wrapper for Movix.",
+      "version": "2.0.0",
+      "author": "Niakw test",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/desktop-v2/movix-desktop-v2.js",
+      "enabled": true,
+      "formats": [
+        "mp4",
+        "m3u8"
+      ],
+      "contentLanguage": [
+        "fr"
+      ],
+      "supportsExternalPlayer": false
+    },
+    {
+      "id": "STREAMZO-DESKTOP-V2",
+      "name": "StreamZo Desktop V2",
+      "description": "Isolated Nuvio Desktop QuickJS test wrapper for StreamZo.",
+      "version": "2.0.0",
+      "author": "Niakw test",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/desktop-v2/streamzo-desktop-v2.js",
+      "enabled": true,
+      "formats": [
+        "mp4",
+        "m3u8"
+      ],
+      "contentLanguage": [
+        "fr"
+      ],
+      "supportsExternalPlayer": true
+    },
+    {
+      "id": "FLEMMIX-DESKTOP-V2",
+      "name": "Flemmix Desktop V2",
+      "description": "Isolated Nuvio Desktop QuickJS test wrapper for Flemmix.",
+      "version": "2.0.0",
+      "author": "Niakw test",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/desktop-v2/flemmix-desktop-v2.js",
+      "enabled": true,
+      "formats": [
+        "mp4",
+        "m3u8"
+      ],
+      "contentLanguage": [
+        "fr"
+      ],
+      "supportsExternalPlayer": false
+    },
+    {
+      "id": "WOOKAFR-DESKTOP-V2",
+      "name": "WookaFR Desktop V2",
+      "description": "Isolated Nuvio Desktop QuickJS test wrapper for WookaFR.",
+      "version": "2.0.0",
+      "author": "Niakw test",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/desktop-v2/wookafr-desktop-v2.js",
+      "enabled": true,
+      "formats": [
+        "mp4",
+        "m3u8"
+      ],
+      "contentLanguage": [
+        "fr"
+      ],
+      "supportsExternalPlayer": false
+    },
+    {
+      "id": "HINDMOVIEZ-DESKTOP-V2",
+      "name": "HindMoviez Desktop V2",
+      "description": "Isolated Nuvio Desktop test with exact episode filtering and bounded results.",
+      "version": "2.0.0",
+      "author": "Niakw test",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/desktop-v2/hindmoviez-desktop-v2.js",
+      "enabled": true,
+      "formats": [
+        "mp4",
+        "mkv",
+        "m3u8"
+      ],
+      "contentLanguage": [
+        "en",
+        "hi"
+      ],
+      "supportsExternalPlayer": false
+    },
+    {
+      "id": "PURSTREAM-DESKTOP-V2",
+      "name": "Purstream Desktop V2",
+      "description": "Isolated Nuvio Desktop test with pinned .art API replacement.",
+      "version": "2.0.0",
+      "author": "Niakw test",
+      "supportedTypes": [
+        "movie",
+        "tv",
+        "anime"
+      ],
+      "filename": "providers/desktop-v2/purstream-desktop-v2.js",
+      "enabled": true,
+      "formats": [
+        "mp4",
+        "m3u8"
+      ],
+      "contentLanguage": [
+        "fr"
+      ],
+      "supportsExternalPlayer": false
+    }
+  ]
+}
