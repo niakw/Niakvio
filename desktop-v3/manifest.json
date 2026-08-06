@@ -1,0 +1,19 @@
+{
+  "name": "Purstream Desktop V3 Test",
+  "version": "3.0.0",
+  "scrapers": [
+    {
+      "id": "PURSTREAM-DESKTOP-V3",
+      "name": "Purstream Desktop V3",
+      "description": "Isolated Nuvio Desktop test with runtime fetch rewriting from purstream.club to purstream.art.",
+      "version": "3.0.0",
+      "author": "Niakw test",
+      "supportedTypes": ["movie", "tv", "anime"],
+      "filename": "https://raw.githubusercontent.com/niakw/Niakvio/b58891aa9eb9e8f617d562b26eb6509e4501833c/providers/desktop-v3/purstream-desktop-v3.js",
+      "enabled": true,
+      "formats": ["mp4", "m3u8"],
+      "contentLanguage": ["fr"],
+      "supportsExternalPlayer": false
+    }
+  ]
+}
