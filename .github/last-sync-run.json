@@ -7,7 +7,7 @@
   "name": "Publish existing validated Nuvio stage",
   "run_attempt": 1,
   "run_id": 31220631242,
-  "status": "in_progress",
-  "updated_at": "2026-08-07T21:35:32Z",
+  "status": "queued",
+  "updated_at": "2026-08-07T21:35:28Z",
   "url": "https://github.com/niakw/Niakvio/actions/runs/31220631242"
 }
