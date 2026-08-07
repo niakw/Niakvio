@@ -1,13 +1,13 @@
 {
   "conclusion": "cancelled",
-  "created_at": "2026-08-07T15:21:49Z",
+  "created_at": "2026-08-07T15:26:05Z",
   "event": "push",
   "head_branch": "main",
-  "head_sha": "905c0bbefff2fbc22e78b35faa178392efd37d23",
+  "head_sha": "af614ef0d95789d54004954cede71b4a0d926013",
   "name": "Check all manifests and publish Nuvio providers",
   "run_attempt": 1,
-  "run_id": 31192220724,
+  "run_id": 31192580572,
   "status": "completed",
-  "updated_at": "2026-08-07T15:26:24Z",
-  "url": "https://github.com/niakw/Niakvio/actions/runs/31192220724"
+  "updated_at": "2026-08-07T15:36:07Z",
+  "url": "https://github.com/niakw/Niakvio/actions/runs/31192580572"
 }
