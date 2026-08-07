@@ -1,5 +1,5 @@
 {
-  "conclusion": "",
+  "conclusion": "failure",
   "created_at": "2026-08-07T16:28:16Z",
   "event": "push",
   "head_branch": "main",
@@ -7,7 +7,7 @@
   "name": "Check all manifests and publish Nuvio providers",
   "run_attempt": 1,
   "run_id": 31197714038,
-  "status": "in_progress",
-  "updated_at": "2026-08-07T17:07:36Z",
+  "status": "completed",
+  "updated_at": "2026-08-07T17:08:08Z",
   "url": "https://github.com/niakw/Niakvio/actions/runs/31197714038"
 }
