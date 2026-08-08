@@ -1,0 +1,34 @@
+name: Query cross-platform release status
+
+on:
+  push:
+    paths:
+      - .github/triggers/query-cross-platform-status
+
+permissions:
+  actions: read
+  contents: write
+
+jobs:
+  query:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd
+        with:
+          ref: ci-status
+      - name: Query target workflow
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh run list -R niakw/Niakvio \
+            --workflow cross-platform-runtime-release.yml \
+            --limit 5 \
+            --json databaseId,status,conclusion,headSha,createdAt,updatedAt,url \
+            > .github/cross-platform-status.json
+      - name: Commit status
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add .github/cross-platform-status.json
+          git diff --cached --quiet || git commit -m "ci: record cross-platform release status"
+          git push origin HEAD:ci-status
